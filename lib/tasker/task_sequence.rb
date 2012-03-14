@@ -87,8 +87,6 @@ module Tasker
     #
     # get_dependency_path("a")     #=>   ["b", "c", :circular_dependencies]
     #
-    # Given the following task structure:
-    # { "a" => "b", "b" => "c", "c" => "a"}
     #
     # Possible statuses are:
     # - :correct_dependencies
